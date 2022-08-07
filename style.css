@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+body{
+    background-color: #9C835F !important;
+}
+h1{
+    font-family: "Open Sans";
+    font-weight: bold !important;
+}
+.title{
+    color: #F9B23D;
+}
+.container{
+    padding-left:  9rem;
+    padding-right:  9rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0;
+}
+.option img {
+    width: 6rem;
+    height: 6rem;
+}
+.vs{
+    font-size: 144px;
+    color: red;
+    font-family: "Open Sans";
+    font-weight: bold !important;
+}

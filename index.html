@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<style>
+    .option img:hover{
+        background-color: white;
+    }
+</style>
+<body>
+    <header class="d-flex align-items-center">
+        <div role="button" class="back mx-1 ps-3"><img class="w-75" src="/assets/_.png" alt=""></div>
+        <div role="button" class="logo mx-1"><img src="/assets/logo 1.png" alt=""></div>
+        <div class="title-game mx-3 title"><h1>ROCK PAPPER SCISSORS</h1></div>
+    </header>
+    <section class="container">
+        <div class="row text-center">
+            <!-- player -->
+            <div class="col">
+                <div class="mb-5"><h1>Name player</h1></div>
+                <div role="button" class="option my-3" onclick="{ pickOptionPlayer('batu'); }">
+                    <img src="/assets/batu.png" alt="batu">
+                </div>
+                <div role="button" class="option my-3" onclick="{ pickOptionPlayer('gunting'); }">
+                    <img src="/assets/gunting.png" alt="gunting">
+                </div>
+                <div role="button" class="option my-3" onclick="{ pickOptionPlayer('kertas'); }">
+                    <img src="/assets/kertas.png" alt="kertas">
+                </div>
+            </div>
+            <!-- vs -->
+            <div class="col d-flex justify-content-center align-items-center vs">VS</div>
+            <!-- com -->
+            <div class="col">
+                <div class="mb-5"><h1>Bot</h1></div>
+                <div role="button" class="option my-3">
+                    <img src="/assets/batu.png" alt="batu">
+                </div>
+                <div role="button" class="option my-3">
+                    <img src="/assets/gunting.png" alt="gunting">
+                </div>
+                <div role="button" class="option my-3">
+                    <img src="/assets/kertas.png" alt="kertas">
+                </div>
+            </div>
+        </div>
+        <div role="button" class="text-center option"><img src="/assets/refresh.png" alt="reset"></div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
