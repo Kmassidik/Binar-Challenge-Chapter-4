@@ -18,10 +18,15 @@ h1{
 .option img {
     width: 6rem;
     height: 6rem;
+    padding : 10px 0;
+    color:  blue;
 }
 .vs{
     font-size: 144px;
     color: red;
+}
+.result{
     font-family: "Open Sans";
     font-weight: bold !important;
+    position: absolute;
 }
